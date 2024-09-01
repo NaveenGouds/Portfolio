@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Responsive Personal Portfolio Website Design</title>
+    </head>
+    <body>
+        <!--HEADER SECTION-->
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <!--HOME SECTION DESIGN-->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hi,Myself</h3>
+                <h1>Naveen Kumar</h1>
+                <h3>And I'm a <span>Frontend Developer</span> </h3>
+                <p>A front-end developer specializes in building the user-facing aspects of websites and applications, utilizing HTML, CSS, JavaScript, and Reactjs to create interactive and visually appealing interfaces. They collaborate closely with designers and back-end developers to ensure seamless integration of design and functionality, optimizing user experience across different devices and browsers.</p>
+                <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="#" class="btn"> Download CV</a>
+            </div>
+            <div class="home-img">
+                <img src="../public/assets/profiledp.png" alt="image">
+            </div>
+        </section>
+        <!--ABOUT SECTION DESIGN-->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="../public/assets/aboutpic.png" alt="aboutPicture">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <spa>Me</spa></h2>
+                <h3>Frontend Developer</h3>
+                <p>A front-end developer specializes in building the user-facing aspects of websites and applications, utilizing HTML, CSS, and JavaScript,ReactJs to create interactive and visually appealing interfaces. They collaborate closely with designers and back-end developers to ensure seamless integration of design and functionality, optimizing user experience across different devices and browsers.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </section>
+        <!--Skills SECTION DESIGN-->
+        <section class="skills" id="skills">
+            <h2 class="heading">My<span>TechStack</span></h2>
+            <div class="skills-container">
+
+                <div class="skills-box">
+                    <i class="fa-solid fa-html5"></i>
+                    <h3>HTML5&CSS3</h3>
+                    <p>
+                        HTML (Hypertext Markup Language) is the standard markup language for creating web pages. It defines the structure and content of web documents.
+                        CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML. It controls how HTML elements are displayed on a web page.</p>
+                     <a href="#" class="btn"> Read More</a>
+                </div>
+            
+            
+                <div class="skills-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>JavaScript</h3>
+                    <p>JavaScript is a high-level, interpreted programming language that enables dynamic and interactive content on web pages. It is widely used for client-side scripting in web development to enhance user experience and add functionality to websites. </p>
+                     <a href="#" class="btn"> Read More</a>
+                </div>
+          
+                <div class="skills-box">
+                    <i class="fa-brands fa-react"></i>
+                    <h3>Reactjs</h3>
+                    <p>Reactjs is a JavaScript library for building user interfaces, particularly for single-page applications. It allows developers to create reusable UI components and efficiently update the UI in response to user interactions or data changes.</p>
+                     <a href="#" class="btn"> Read More</a>
+                </div>
+            </div>
+        </section>
+        <!--PORTFOLIO PROJECT DESIGN-->
+        <section class="projects" id="projects">
+            <h2 class="heading">Latest<span>Projects</span></h2>
+            <div class="projects-container">
+
+                <div class="projects-box">
+                    <img src="../public/assets/html-logo.png" alt="imgOne">
+                    <div class="projects-layer">
+                        <h4>Portfolio</h4>
+                        <p>Developed a responsive portfolio showcasing projects and skills. Integrated modern web techniques for cross-browser compatibility and user engagement. Implemented clean HTML structure, CSS layout for seamless user experience. </p>
+                        <i class="fa-solid fa-share-from-square"></i>
+                    </div>
+                </div>
+
+                <div class="projects-box">
+                    <img src="../public/assets//React-Project.png" alt="imgTwo">
+                    <div class="projects-layer">
+                        <h4>React Video Library </h4>
+                        <p>Developed a React.js video library project akin to YouTube, enabling admin functionalities such as video uploads, edits, and deletions, alongside user features like signup, login, and video viewing.</p>
+                        <i class="fa-solid fa-share-from-square"></i>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--CONTACT SECTION DESIGN-->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email address">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                 <input type="submit" value="send Mesaage" class="btn">
+            </form>
+        </section>
+        <!--Footer Design-->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy;2024 by @Naveen|All Rights Reserved. </p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
